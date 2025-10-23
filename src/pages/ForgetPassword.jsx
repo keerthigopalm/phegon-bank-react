@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { apiService } from "../services/api";
+import { apiService } from "../service/api";
 
 
 const ForgotPassword = () => {

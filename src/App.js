@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navebar";
 import Footer from "./components/Footer";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
@@ -7,12 +7,12 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
 import UpdateProfile from "./pages/UpdateProfile";
-import ForgotPassword from "./pages/ForgotPassword";
+import ForgotPassword from "./pages/ForgetPassword";
 import ResetPassword from "./pages/ResetPassword";
-import Transactions from "./pages/Transactions";
+import Transactions from "./pages/Transaction";
 import Transfer from "./pages/Transfer";
 import AuditorDashboard from "./pages/AuditorDashboard";
-import { AuditorRoute, CustomerRoute } from "./services/Guard";
+import { AuditorRoute, CustomerRoute } from "./service/Guard";
 import Deposit from "./pages/Deposit";
 
 
